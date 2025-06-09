@@ -4,11 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biswajit Sahoo - Programmer & Software Developer | MSc Computer Science</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Biswajit Sahoo - Dynamic MSc Computer Science student and programmer specializing in Python, Java, web development, and blockchain. UGC-NET qualified. Available for hire in Cuttack, Odisha, India.">
+    <meta name="keywords"
+        content="Biswajit Sahoo, programmer, software developer, Python, Java, web development, blockchain, Solidity, MySQL, Oracle, Cuttack, Odisha, India, computer science, UGC-NET, hire programmer">
     <meta name="author" content="Biswajit Sahoo">
-    <meta name="keywords" content="Biswajit Sahoo, Resume, Programmer, MSc Computer Science, Web Development, Blockchain, Skills, Education, Achievements, Cuttack, Odisha, India">
-    <meta name="description" content="Biswajit Sahoo's professional resume showcasing programming skills, education history, and achievements.">
-    <meta http-equiv="X-UA-Compatible" content="IE=7">
-    <title>Biswajit Sahoo - Resume</title>
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="IN-OR">
+    <meta name="geo.placename" content="Cuttack, Odisha, India">
+    <meta name="geo.position" content="20.4625;85.8830">
+    <meta name="ICBM" content="20.4625, 85.8830">
+
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Biswajit Sahoo - Programmer & Software Developer">
+    <meta property="og:description"
+        content="Dynamic MSc Computer Science student specializing in Python, Java, web development, and blockchain. UGC-NET qualified programmer available for hire.">
+    <meta property="og:url" content="https://bsahoo8342.github.io/resume/">
+    <meta property="og:site_name" content="Biswajit Sahoo Resume">
+    <meta property="og:locale" content="en_US">
+    <meta property="profile:first_name" content="Biswajit">
+    <meta property="profile:last_name" content="Sahoo">
+    <meta property="profile:gender" content="male">
+
+    <!-- LinkedIn Meta Tags -->
+    <meta property="article:author" content="Biswajit Sahoo">
+    <meta property="article:section" content="Technology">
+    <meta property="article:tag" content="Programming, Software Development, Computer Science">
+
+    <!-- Schema.org Structured Data for Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Biswajit Sahoo",
+      "jobTitle": "Programmer & Software Developer",
+      "description": "Dynamic MSc Computer Science student with expertise in programming languages like Python and Java",
+      "email": "Sahoobiswajit9090@outlook.com",
+      "telephone": "+91-9692995380",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Cuttack",
+        "addressRegion": "Odisha",
+        "addressCountry": "India"
+      },
+      "birthDate": "2003-03-07",
+      "gender": "Male",
+      "nationality": "Indian",
+      "knowsLanguage": ["Odia", "English", "Hindi"],
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Central University of Odisha"
+        },
+        {
+          "@type": "EducationalOrganization", 
+          "name": "Ravenshaw University"
+        }
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "name": "UGC-NET 2024 Qualified",
+        "description": "Qualified for PhD & Assistant Professor"
+      },
+      "knowsAbout": [
+        "Python Programming",
+        "Java Programming", 
+        "C Programming",
+        "Web Development",
+        "JavaScript",
+        "PHP",
+        "HTML",
+        "CSS",
+        "MySQL",
+        "Oracle Database",
+        "Blockchain",
+        "Solidity",
+        "Smart Contracts",
+        "Linux",
+        "Windows Server"
+      ],
+      "url": "https://bsahoo8342.github.io/resume/",
+      "sameAs": [
+        "https://www.linkedin.com/in/biswajit8342/",
+        "https://github.com/bsahoo8342"
+      ]
+    }
+    </script>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bsahoo8342.github.io/resume/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#4facfe">
+    <meta name="msapplication-TileColor" content="#4facfe">
     <style>
         * {
             margin: 0;
@@ -30,498 +134,597 @@
             padding: 20px;
         }
 
-        .header {
-            text-align: center;
-            background: rgba(255, 255, 255, 0.1);
+        .resume-card {
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 20px;
-            padding: 40px 20px;
-            margin-bottom: 30px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            animation: fadeInDown 1s ease-out;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: slideUp 0.8s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .profile-img {
-            width: 150px;
-            height: 150px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
-            background: linear-gradient(45deg, #4facfe, #00f2fe);
+            background: rgba(255, 255, 255, 0.2);
+            margin: 0 auto 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 20px;
-            font-size: 60px;
-            color: white;
+            font-size: 48px;
             font-weight: bold;
-            animation: pulse 2s infinite;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            position: relative;
+            z-index: 1;
         }
 
         .name {
-            font-size: 3em;
-            font-weight: bold;
-            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 1;
         }
 
         .title {
-            font-size: 1.5em;
-            color: #f0f0f0;
-            margin-bottom: 20px;
+            font-size: 1.3rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
         }
 
-        .contact-info {
+        .action-buttons {
+            margin-top: 30px;
             display: flex;
+            gap: 20px;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 30px;
-            margin-top: 20px;
+            position: relative;
+            z-index: 1;
         }
 
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
             color: white;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 10px 15px;
-            border-radius: 25px;
-            transition: transform 0.3s ease;
         }
 
-        .contact-item:hover {
-            transform: translateY(-2px);
+        .btn-secondary {
             background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
         }
 
-        .main-content {
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
             display: grid;
             grid-template-columns: 1fr 2fr;
-            gap: 30px;
-            margin-bottom: 30px;
+            gap: 40px;
+            padding: 40px;
         }
 
         .sidebar {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
             padding: 30px;
+            border-radius: 15px;
             height: fit-content;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            animation: fadeInLeft 1s ease-out;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
         }
 
-        .main-section {
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            animation: fadeInRight 1s ease-out;
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
         }
 
         .section-title {
-            font-size: 1.5em;
-            color: #333;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2c3e50;
             margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 3px solid #667eea;
             position: relative;
+            padding-bottom: 10px;
         }
 
         .section-title::after {
             content: '';
             position: absolute;
-            bottom: -3px;
+            bottom: 0;
             left: 0;
             width: 50px;
             height: 3px;
-            background: #764ba2;
+            background: linear-gradient(45deg, #4facfe, #00f2fe);
+            border-radius: 2px;
         }
 
-        .skill-category {
-            margin-bottom: 20px;
-        }
-
-        .skill-name {
-            font-weight: bold;
-            color: #555;
-            margin-bottom: 5px;
-        }
-
-        .skill-list {
+        .contact-item {
             display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: rgba(79, 172, 254, 0.1);
+            border-radius: 8px;
+            transition: background 0.3s ease;
         }
 
-        .skill-tag {
+        .contact-item:hover {
+            background: rgba(79, 172, 254, 0.2);
+        }
+
+        .contact-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 15px;
+            color: #4facfe;
+        }
+
+        .skill-item {
             background: linear-gradient(45deg, #667eea, #764ba2);
             color: white;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.9em;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 5px 5px 5px 0;
+            font-size: 0.9rem;
             transition: transform 0.3s ease;
         }
 
-        .skill-tag:hover {
+        .skill-item:hover {
             transform: scale(1.05);
         }
 
-        .language-item {
-            background: #f8f9fa;
-            padding: 10px;
-            border-radius: 8px;
-            margin-bottom: 8px;
-            border-left: 4px solid #667eea;
-        }
-
-        .education-item {
-            background: #f8f9fa;
+        .education-item,
+        .project-item {
+            margin-bottom: 25px;
             padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            border-left: 5px solid #667eea;
-            transition: transform 0.3s ease;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            border-left: 4px solid #4facfe;
         }
 
-        .education-item:hover {
-            transform: translateX(5px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        .education-title,
+        .project-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
         }
 
-        .degree {
-            font-weight: bold;
-            color: #333;
-            font-size: 1.1em;
+        .education-institution,
+        .project-link {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
         }
 
-        .institution {
-            color: #666;
-            font-style: italic;
+        .project-description {
+            color: #495057;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-top: 10px;
         }
 
-        .year {
-            color: #888;
-            font-size: 0.9em;
+        .project-link a {
+            color: #4facfe;
+            text-decoration: none;
+            font-weight: 500;
         }
 
-        .achievement {
-            background: linear-gradient(45deg, #4facfe, #00f2fe);
+        .project-link a:hover {
+            text-decoration: underline;
+        }
+
+        .achievement-item {
+            background: linear-gradient(45deg, #56ab2f, #a8e6cf);
             color: white;
             padding: 15px 20px;
             border-radius: 10px;
-            margin-bottom: 15px;
-            animation: slideIn 1s ease-out;
+            font-weight: 500;
         }
 
-        .profile-text {
-            font-size: 1.1em;
-            line-height: 1.8;
-            color: #555;
-            text-align: justify;
-        }
-
-        .personal-info {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+        .languages {
+            display: flex;
             gap: 10px;
-            margin-top: 20px;
+            flex-wrap: wrap;
         }
 
-        .info-item {
-            background: #f8f9fa;
-            padding: 10px;
-            border-radius: 8px;
-            border-left: 4px solid #764ba2;
-        }
-
-        .info-label {
-            font-weight: bold;
-            color: #333;
-        }
-
-        .info-value {
-            color: #666;
-        }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes fadeInRight {
-            from {
-                opacity: 0;
-                transform: translateX(50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes pulse {
-
-            0%,
-            100% {
-                transform: scale(1);
-            }
-
-            50% {
-                transform: scale(1.05);
-            }
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .language-item {
+            background: #28a745;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 15px;
+            font-size: 0.9rem;
         }
 
         @media (max-width: 768px) {
-            .main-content {
+            .content {
                 grid-template-columns: 1fr;
+                gap: 20px;
+                padding: 20px;
             }
 
-            .contact-info {
+            .name {
+                font-size: 2rem;
+            }
+
+            .action-buttons {
                 flex-direction: column;
                 align-items: center;
             }
 
-            .name {
-                font-size: 2em;
+            .btn {
+                width: 200px;
+                text-align: center;
+            }
+        }
+
+        .floating-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .particle {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px) rotate(0deg);
             }
 
-            .personal-info {
-                grid-template-columns: 1fr;
+            50% {
+                transform: translateY(-20px) rotate(180deg);
             }
         }
     </style>
 </head>
 
 <body>
+    <div class="floating-particles" id="particles"></div>
+
     <div class="container">
-        <header class="header">
-            <div class="profile-img">BS</div>
-            <h1 class="name">BISWAJIT SAHOO</h1>
-            <p class="title">Programmer & MSc Computer Science Student</p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <span>📞</span>
-                    <span>+91-9692995380</span>
-                </div>
-                <div class="contact-item">
-                    <span>✉️</span>
-                    <span>sahoobiswajit9090@outlook.com</span>
-                </div>
-                <div class="contact-item">
-                    <span>📍</span>
-                    <span>Cuttack, Odisha, India</span>
+        <div class="resume-card">
+            <div class="header">
+                <div class="profile-img">BS</div>
+                <h1 class="name">BISWAJIT SAHOO</h1>
+                <p class="title">Programmer & Software Developer</p>
+                <div class="action-buttons">
+                    <button class="btn btn-primary" onclick="showHireModal()">Hire Me</button>
+                    <a href="Biswajit.pdf" class="btn btn-secondary" download="Biswajit.pdf">Download
+                        Resume</a>
                 </div>
             </div>
-        </header>
 
-        <div class="main-content">
-            <aside class="sidebar">
-                <section>
-                    <h2 class="section-title">Technical Skills</h2>
-                    <div class="skill-category">
-                        <div class="skill-name">Programming Languages</div>
-                        <div class="skill-list">
-                            <span class="skill-tag">C</span>
-                            <span class="skill-tag">Java</span>
-                            <span class="skill-tag">Python</span>
+            <div class="content">
+                <div class="sidebar">
+                    <div class="section">
+                        <h2 class="section-title">Contact</h2>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+91-9692995380</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <span>Sahoobiswajit9090@outlook.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Cuttack, Odisha, India</span>
                         </div>
                     </div>
-                    <div class="skill-category">
-                        <div class="skill-name">Database</div>
-                        <div class="skill-list">
-                            <span class="skill-tag">MySQL</span>
-                            <span class="skill-tag">Oracle</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-name">Web Development</div>
-                        <div class="skill-list">
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
-                            <span class="skill-tag">PHP</span>
-                            <span class="skill-tag">JavaScript</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-name">Operating Systems</div>
-                        <div class="skill-list">
-                            <span class="skill-tag">Windows</span>
-                            <span class="skill-tag">Linux</span>
-                            <span class="skill-tag">Windows Server</span>
-                        </div>
-                    </div>
-                    <div class="skill-category">
-                        <div class="skill-name">Blockchain</div>
-                        <div class="skill-list">
-                            <span class="skill-tag">Smart Contracts</span>
-                            <span class="skill-tag">Solidity</span>
-                        </div>
-                    </div>
-                </section>
 
-                <section>
-                    <h2 class="section-title">Languages</h2>
-                    <div class="language-item">
-                        <strong>Odia</strong> - Native
-                    </div>
-                    <div class="language-item">
-                        <strong>English</strong> - Proficient
-                    </div>
-                    <div class="language-item">
-                        <strong>Hindi</strong> - Proficient
-                    </div>
-                </section>
-
-                <section>
-                    <h2 class="section-title">Personal Information</h2>
-                    <div class="personal-info">
-                        <div class="info-item">
-                            <div class="info-label">Date of Birth</div>
-                            <div class="info-value">07 March 2003</div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-label">Gender</div>
-                            <div class="info-value">Male</div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-label">Nationality</div>
-                            <div class="info-value">Indian</div>
-                        </div>
-                        <div class="info-item">
-                            <div class="info-label">Age</div>
-                            <div class="info-value">22 years</div>
+                    <div class="section">
+                        <h2 class="section-title">Languages</h2>
+                        <div class="languages">
+                            <span class="language-item">Odia</span>
+                            <span class="language-item">English</span>
+                            <span class="language-item">Hindi</span>
                         </div>
                     </div>
-                </section>
-            </aside>
 
-            <main class="main-section">
-                <section>
-                    <h2 class="section-title">Professional Profile</h2>
-                    <p class="profile-text">
-                        Dynamic MSc student in Computer Science with expertise in programming languages like Python and
-                        Java.
-                        Passionate about developing innovative software solutions and eager to apply theoretical
-                        knowledge in a
-                        practical programming role. Strong analytical skills and a collaborative mindset, ready to
-                        contribute
-                        to team success and tackle real-world challenges.
-                    </p>
-                </section>
+                    <div class="section">
+                        <h2 class="section-title">Skills</h2>
+                        <div class="skills-category">
+                            <h4 style="margin-bottom: 10px; color: #2c3e50;">Programming Languages</h4>
+                            <span class="skill-item">C</span>
+                            <span class="skill-item">Java</span>
+                            <span class="skill-item">Python</span>
+                        </div>
+                        <div class="skills-category" style="margin-top: 15px;">
+                            <h4 style="margin-bottom: 10px; color: #2c3e50;">Database</h4>
+                            <span class="skill-item">MySQL</span>
+                            <span class="skill-item">Oracle</span>
+                        </div>
+                        <div class="skills-category" style="margin-top: 15px;">
+                            <h4 style="margin-bottom: 10px; color: #2c3e50;">Web Development</h4>
+                            <span class="skill-item">HTML</span>
+                            <span class="skill-item">CSS</span>
+                            <span class="skill-item">PHP</span>
+                            <span class="skill-item">JavaScript</span>
+                        </div>
+                        <div class="skills-category" style="margin-top: 15px;">
+                            <h4 style="margin-bottom: 10px; color: #2c3e50;">Operating Systems</h4>
+                            <span class="skill-item">Windows</span>
+                            <span class="skill-item">Linux</span>
+                            <span class="skill-item">Windows Server</span>
+                        </div>
+                        <div class="skills-category" style="margin-top: 15px;">
+                            <h4 style="margin-bottom: 10px; color: #2c3e50;">Blockchain</h4>
+                            <span class="skill-item">Smart Contract</span>
+                            <span class="skill-item">Solidity</span>
+                        </div>
+                    </div>
 
-                <section>
-                    <h2 class="section-title">Education History</h2>
-                    <div class="education-item">
-                        <div class="degree">MSc Computer Science</div>
-                        <div class="institution">Central University of Odisha, Koraput</div>
-                        <div class="year">2024 - Continuing</div>
+                    <div class="section">
+                        <h2 class="section-title">Personal Info</h2>
+                        <div class="contact-item">
+                            <span class="contact-icon">🎂</span>
+                            <span>07th March 2003</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">👤</span>
+                            <span>Male</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🇮🇳</span>
+                            <span>Indian</span>
+                        </div>
                     </div>
-                    <div class="education-item">
-                        <div class="degree">BSc Information Science & Technology</div>
-                        <div class="institution">Ravenshaw University, Cuttack</div>
-                        <div class="year">2021 - 2024</div>
-                    </div>
-                    <div class="education-item">
-                        <div class="degree">12th / Intermediate</div>
-                        <div class="institution">Stewart Science College, Cuttack</div>
-                        <div class="year">2019 - 2021</div>
-                    </div>
-                    <div class="education-item">
-                        <div class="degree">10th / Matriculation</div>
-                        <div class="institution">Ravenshaw Collegiate School, Cuttack</div>
-                        <div class="year">May 2019</div>
-                    </div>
-                </section>
+                </div>
 
-                <section>
-                    <h2 class="section-title">Achievements</h2>
-                    <div class="achievement">
-                        <strong>🏆 UGC-NET 2024 December</strong>
-                        <br>
-                        Qualified for PhD & Assistant Professor positions
+                <div class="main-content">
+                    <div class="section">
+                        <h2 class="section-title">Profile</h2>
+                        <p>Dynamic MSc student in Computer Science with expertise in programming languages like Python
+                            and Java. Passionate about developing innovative software solutions and eager to apply
+                            theoretical knowledge in a practical programming role. Strong analytical skills and a
+                            collaborative mindset, ready to contribute to team success and tackle real-world challenges.
+                        </p>
                     </div>
-                </section>
-            </main>
+
+                    <div class="section">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education-item">
+                            <div class="education-title">MSc Computer Science</div>
+                            <div class="education-institution">Central University of Odisha, Koraput</div>
+                            <div class="education-year">2024 – Continuing</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-title">BSc IST (Information Science & Technology)</div>
+                            <div class="education-institution">Ravenshaw University, Cuttack</div>
+                            <div class="education-year">2021 – 2024</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-title">12th / Intermediate</div>
+                            <div class="education-institution">Stewart Science College, Cuttack</div>
+                            <div class="education-year">2019 – 2021</div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-title">10th / Matriculation</div>
+                            <div class="education-institution">Ravenshaw Collegiate School, Cuttack</div>
+                            <div class="education-year">May 2019</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2 class="section-title">Projects</h2>
+                        <div class="project-item">
+                            <div class="project-title">Judicial Case Management System (JCMS)</div>
+                            <div class="project-link"><a href="https://jcms.webhostingfree.io/" target="_blank">🔗 View
+                                    Project</a></div>
+                            <div class="project-description">
+                                The Judicial Case Management System (JCMS) enables electronic filing of cases (E-Cases).
+                                Using the JCMS E-Case System, every type of case can be filed before Hon'ble High Court
+                                that adopts this E-Case system. The introduction of this JCMS E-Case System is aimed at
+                                promoting paperless filing and creating time and cost-saving efficiencies by adopting
+                                technological solutions to file cases before various courts in India.
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="project-title">Online Railway Reservation System (ORRS)</div>
+                            <!-- <div class="project-link"><a href="https://jcms.webhostingfree.io/" target="_blank">🔗 View
+                                    Project</a></div> -->
+                            <div class="project-description">
+
+                                The Online Railway Reservation System (ORRS) is a real-time ticket booking platform
+                                designed to streamline the process of reserving train tickets. It allows users to check
+                                train schedules, availability, and make secure reservations efficiently from anywhere at
+                                any time.
+                            </div>
+                        </div>
+
+                        <div class="section">
+                            <h2 class="section-title">Achievements</h2>
+                            <div class="achievement-item">
+                                🏆 UGC-NET 2024 DEC – Qualified for PhD & Assistant Professor
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <script>
-        // Add smooth scrolling and interactive effects
-        document.addEventListener('DOMContentLoaded', function () {
-            // Add click effects to skill tags
-            const skillTags = document.querySelectorAll('.skill-tag');
-            skillTags.forEach(tag => {
-                tag.addEventListener('click', function () {
-                    this.style.transform = 'scale(0.95)';
-                    setTimeout(() => {
-                        this.style.transform = 'scale(1.05)';
-                    }, 100);
-                    setTimeout(() => {
-                        this.style.transform = 'scale(1)';
-                    }, 200);
-                });
-            });
+        <!-- Hire Modal -->
+        <div id="hireModal"
+            style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; align-items: center; justify-content: center;">
+            <div
+                style="background: white; padding: 40px; border-radius: 20px; max-width: 500px; width: 90%; text-align: center; position: relative;">
+                <span onclick="closeHireModal()"
+                    style="position: absolute; top: 15px; right: 20px; font-size: 28px; cursor: pointer; color: #666;">&times;</span>
+                <h2 style="color: #2c3e50; margin-bottom: 20px;">Let's Work Together!</h2>
+                <p style="margin-bottom: 30px; color: #666; line-height: 1.6;">I'm excited about the opportunity to
+                    contribute to your team. Let's discuss how I can help bring your projects to life!</p>
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                    <a href="mailto:Sahoobiswajit9090@outlook.com?subject=Job Opportunity&body=Hi Biswajit, I would like to discuss a potential opportunity with you."
+                        class="btn btn-primary">Send Email</a>
+                    <a href="tel:+919692995380" class="btn btn-secondary">Call Now</a>
+                </div>
+            </div>
+        </div>
 
-            // Add hover effects to education items
-            const educationItems = document.querySelectorAll('.education-item');
-            educationItems.forEach(item => {
-                item.addEventListener('mouseenter', function () {
-                    this.style.background = '#e8f4fd';
-                });
-                item.addEventListener('mouseleave', function () {
-                    this.style.background = '#f8f9fa';
-                });
-            });
+        <script>
+            // Create floating particles
+            function createParticles() {
+                const particlesContainer = document.getElementById('particles');
+                const particleCount = 20;
 
-            // Add typing effect to name
-            const nameElement = document.querySelector('.name');
-            const originalText = nameElement.textContent;
-            nameElement.textContent = '';
-
-            let i = 0;
-            const typeWriter = () => {
-                if (i < originalText.length) {
-                    nameElement.textContent += originalText.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 100);
+                for (let i = 0; i < particleCount; i++) {
+                    const particle = document.createElement('div');
+                    particle.className = 'particle';
+                    particle.style.left = Math.random() * 100 + '%';
+                    particle.style.top = Math.random() * 100 + '%';
+                    particle.style.width = (Math.random() * 10 + 5) + 'px';
+                    particle.style.height = particle.style.width;
+                    particle.style.animationDelay = Math.random() * 6 + 's';
+                    particle.style.animationDuration = (Math.random() * 4 + 4) + 's';
+                    particlesContainer.appendChild(particle);
                 }
-            };
+            }
 
-            setTimeout(typeWriter, 500);
-        });
-    </script>
+            // Modal functions
+            function showHireModal() {
+                document.getElementById('hireModal').style.display = 'flex';
+            }
+
+            function closeHireModal() {
+                document.getElementById('hireModal').style.display = 'none';
+            }
+
+            // Close modal when clicking outside
+            document.getElementById('hireModal').addEventListener('click', function (e) {
+                if (e.target === this) {
+                    closeHireModal();
+                }
+            });
+
+            // Add smooth scroll effect to sections
+            function addScrollEffects() {
+                const sections = document.querySelectorAll('.section');
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0)';
+                        }
+                    });
+                });
+
+                sections.forEach(section => {
+                    section.style.opacity = '0';
+                    section.style.transform = 'translateY(20px)';
+                    section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                    observer.observe(section);
+                });
+            }
+
+            // Initialize effects
+            document.addEventListener('DOMContentLoaded', function () {
+                createParticles();
+                addScrollEffects();
+            });
+
+            // Add typing effect to the title
+            function typeWriter(element, text, speed = 100) {
+                let i = 0;
+                element.innerHTML = '';
+                function typing() {
+                    if (i < text.length) {
+                        element.innerHTML += text.charAt(i);
+                        i++;
+                        setTimeout(typing, speed);
+                    }
+                }
+                typing();
+            }
+
+            // Initialize typing effect
+            window.addEventListener('load', function () {
+                const titleElement = document.querySelector('.title');
+                const originalText = titleElement.textContent;
+                typeWriter(titleElement, originalText, 80);
+            });
+        </script>
 </body>
 
 </html>
