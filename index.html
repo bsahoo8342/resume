@@ -701,6 +701,57 @@
     border-radius: 8px; /* Rounded corners for the image */
     margin-bottom: 10px; /* Space between image and title */
 }
+        /* Contact Form Styles */
+            .contact-form {
+                display: grid;
+                gap: 12px;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 20px;
+            }
+
+            .contact-form .full-width {
+                grid-column: 1 / -1;
+            }
+
+            .contact-form input,
+            .contact-form textarea {
+                width: 100%;
+                padding: 12px 14px;
+                border-radius: 8px;
+                border: 1px solid var(--border-color);
+                font-size: 1em;
+                resize: vertical;
+                box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.03);
+                box-sizing: border-box;
+                min-width: 0;
+            }
+
+            .contact-form textarea {
+                min-height: 120px;
+            }
+
+            .contact-form .submit-btn {
+                grid-column: 1 / -1;
+                justify-self: start;
+                margin-top: 6px;
+                display: block;
+                width: auto;
+            }
+
+            /* Ensure contact form buttons fill the cell and ignore global .btn width rules */
+            .contact-form .btn {
+                width: 100% !important;
+                max-width: none !important;
+                display: block !important;
+                box-sizing: border-box;
+            }
+
+            .form-message {
+                margin-top: 10px;
+                font-weight: 600;
+                color: var(--secondary-color);
+            }
+       
     </style>
    
 </head>
@@ -905,6 +956,19 @@
         <section id="contact-me" class="card">
             <h2>Contact Me</h2>
             <p align="justify">I'm always open to new opportunities, collaborations, and discussions. Feel free to connect with me!</p>
+            <form id="contactForm" class="contact-form" novalidate action="https://api.web3forms.com/submit"
+                method="POST">
+                <input type="hidden" name="access_key" value="68ac6c70-5cb8-4513-8a89-53bffade30c0" />
+                <input type="hidden" name="from_name" value="bsahoo8342.github.io-resume" />
+                <input type="text" id="cf-name" name="name" placeholder="Your name" required>
+                <input type="email" id="cf-email" name="email" placeholder="Your email" required>
+                <input type="text" id="cf-subject" name="subject" class="full-width" placeholder="Subject" required>
+                <input type="text" id="cf-subject" name="phone" class="full-width" placeholder="Phone (Optional)">
+                <textarea id="cf-message" name="message" class="full-width" placeholder="Your message"
+                    required></textarea>
+                <input type="hidden" name="redirect" value="http://bsahoo8342.github.io/resume/thanks.html">
+                <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+            </form>
             <div class="social-links">
                 <a href="https://github.com/bsahoo8342" target="_blank" aria-label="GitHub"><i
                         class="fab fa-github"></i></a>
@@ -954,6 +1018,7 @@
 </body>
 
 </html>
+
 
 
 
