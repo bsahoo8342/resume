@@ -18,10 +18,10 @@ I am a highly motivated **Computer Science Postgraduate** with a strong academic
 
 ## 🛠️ Tech Stack & Skills
 
-*   **Programming Languages:** Java, PHP, JavaScript, C, C++, Solidity
+*   **Programming Languages:** Java, PHP, JavaScript, C, Python, Solidity
 *   **Web Development:** HTML5, CSS3, Bootstrap, jQuery, AJAX, MySQL
 *   **Specialized Domains:** Blockchain (Ethereum/EVM), IoT Architecture, Web Security
-*   **Tools & Platforms:** Git, GitHub, VS Code, Google Search Console
+*   **Tools & Platforms:** Git, GitHub, VS Code, Google Search Console, VM Ware
 
 ---
 
